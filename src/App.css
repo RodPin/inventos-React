@@ -1,0 +1,173 @@
+.container {
+  margin: 0 auto;
+  margin-top: 1%;
+  height: 400px;
+  width: 600px;
+  background-image: url("https://image.freepik.com/free-vector/yellow-comic-zoom-lines-background_1017-15136.jpg");
+  border-radius: 9px;
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.container2 {
+  margin: 0 auto;
+  margin-top: 1%;
+  height: 98%;
+  width: 900px;
+  /* background-image: url("https://image.freepik.com/free-vector/yellow-comic-zoom-lines-background_1017-15136.jpg"); */
+  /* background-color: "yellow";
+   */
+
+  border-radius: 9px;
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.carrossel {
+}
+
+.titulo {
+  font-size: 40px;
+  color: black;
+  text-align: center;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.input_Nome {
+  background: url(Imagens/2.png) no-repeat scroll 7px 7px;
+  background-color: white;
+  padding-left: 30px;
+  width: 220px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.input_Nome:focus {
+  background: url(Imagens/2.png) no-repeat scroll 7px 7px;
+  background-color: white;
+  padding-left: 30px;
+  width: 220px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid blue;
+}
+
+.input_Telefone {
+  background: url(Imagens/4.png) no-repeat scroll 7px 7px;
+  background-color: white;
+  padding-left: 30px;
+  width: 220px;
+  height: 30px;
+  border-radius: 3px;
+}
+.input_Telefone:focus {
+  background: url(Imagens/4.png) no-repeat scroll 7px 7px;
+  background-color: white;
+  padding-left: 30px;
+  width: 220px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid blue;
+}
+
+.input_Email {
+  background: url(Imagens/3.png) no-repeat scroll 7px 7px;
+  background-color: white;
+  padding-left: 30px;
+  width: 220px;
+  height: 30px;
+  border-radius: 3px;
+}
+.input_Email:focus {
+  background: url(Imagens/3.png) no-repeat scroll 7px 7px;
+  background-color: white;
+  padding-left: 30px;
+  width: 220px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid blue;
+}
+
+.input_Endereço {
+  background: url(Imagens/5.png) no-repeat scroll 7px 7px;
+  background-color: white;
+  padding-left: 30px;
+  width: 220px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.input_Endereço:focus {
+  background: url(Imagens/5.png) no-repeat scroll 7px 7px;
+  background-color: white;
+  padding-left: 30px;
+  width: 220px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid blue;
+}
+
+.input_Mensagem {
+  background: url(Imagens/6.png) no-repeat scroll 7px 7px;
+  padding-left: 30px;
+  width: 800px;
+  height: 100px;
+  border-radius: 3px;
+}
+.div_Botao {
+  margin-top: 50;
+}
+.botao {
+  color: white;
+  background-color: black;
+  height: 30px;
+  width: 130px;
+  float: right;
+  margin-right: 5%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.div_Sucesso {
+}
+
+.Mensagem_Sucesso {
+  text-align: center;
+  font-size: 30px;
+}
+.img_Sucesso {
+  margin-left: 40%;
+  margin-right: auto;
+  width: 20%;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label {
+  top: -2px;
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+.inputText {
+  font-size: 14px;
+  width: 300px;
+  height: 35px;
+}
+
+.floating-label {
+  position: relative;
+  pointer-events: none;
+  left: -345px;
+  top: 7px;
+  transition: 0.2s ease all;
+}
